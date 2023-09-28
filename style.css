@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #3E708E, #64969B);
+}
+
+.logo {
+    position: absolute;
+    margin: 0;
+    color: #496F74;
+    font-size: 20px;
+    margin-bottom: 35%;
+    margin-right: 45%;
+}
+
+.left {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 80vh;
+    background-color: #FFFFFF;
+}
+
+.right {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height:80vh;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #517879 , #1E3E57);
+    color: #FFFFFF;
+}
+
+.right h1 {
+    font-size: 3vw;
+    padding-bottom: 30px;
+}
+
+.container {
+padding-bottom: 80px;
+padding-left: 20px;
+}
+
+.topo {
+    position: absolute;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 35%;
+    margin-left: 13%;
+}
+
+.topo a {
+    padding: 10px;
+}
+
+h2{
+    padding: 30px 0;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 15px ;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 100px 0;
+}
+
+.card {
+    display: flex;
+}
+
+label {
+    font-size: 14px;
+    padding: 0 0 4px 0;
+}
+
+input::placeholder {
+    color: rgb(194, 190, 190);
+}
+
+input {
+    padding: 5px;
+    width: 15vw;
+    border-radius: 5px;
+    outline: none;
+    border-style: solid;
+    border-color: #CCCCCC;
+}
+
+.left p {
+    font-size: 10px;
+    color: rgb(194, 190, 190);
+}
+
+span {
+    font-size: 10px;
+    color: rgb(194, 190, 190);
+}
+
+.btn {
+    background: #284A5E;
+    color: white;
+    padding: 5px 0;
+    border-radius: 4px;
+}
+
+select {
+    padding: 5px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.eye {
+    position: absolute;
+    width: 20px;
+    margin-top: 353px;
+    margin-left: 250px;
+}
